@@ -57,6 +57,21 @@ section {
     column-gap: 1%;
 }
 
+.noticias article {
+    padding: 5px;
+}
+
 .noticias img {
     max-width: 300px;
 }
+
+.noticias p {
+    margin-bottom: 5px;
+}
+
+.noticias button {
+    padding: 5px;
+}
+
+
+
