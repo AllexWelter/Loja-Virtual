@@ -11,5 +11,14 @@
 }
 
 header .container {
-    
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
 }
+
+header {
+    background-color: rgb(106, 205, 205);   
+    padding-top: 16px;
+    color: #fff;
+}
+
