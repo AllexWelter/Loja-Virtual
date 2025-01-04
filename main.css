@@ -124,6 +124,7 @@ footer li img {
 
     .artigos .produtos {
         margin-bottom: 32px;
+        text-align: center;
     }
 
 }
@@ -135,11 +136,12 @@ footer li img {
     }
 
     .artigos {
-        display: block;
+        grid-template-columns: repeat(2, 49%);
     }
 
     .artigos .produtos {
-        margin-bottom: 32px;
+        margin-bottom: 25px;
+        text-align: center;
     }
 }
 
