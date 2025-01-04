@@ -15,7 +15,8 @@
     margin-bottom: 25px;
 }
 
-header .container {
+header .container,
+footer .container {
     display: flex;
     justify-content: space-between;  
     align-items: center;  
@@ -25,9 +26,24 @@ header .container {
     display: flex;
 }
 
-header {
+header, footer {
     background-color: rgb(106, 205, 205);   
     padding-top: 16px;
+    color: #fff;
+}
+
+form input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+form button {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(47, 156, 156);
     color: #fff;
 }
 
@@ -81,6 +97,19 @@ section h2 {
 
 .noticias button {
     padding: 5px;
+    background-color: rgb(106, 205, 205);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
 }
 
 
