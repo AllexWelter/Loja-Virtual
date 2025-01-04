@@ -11,7 +11,7 @@
 }
 
 .container h2 {
-    border-bottom: 2px solid;
+    border-bottom: 2px;
     margin-bottom: 25px;
 }
 
@@ -49,10 +49,12 @@ form button {
 
 .menu > li {
     list-style: none;
+    float: left;
+    margin-right: 10px;
 }
 nav li a {
     text-decoration: none;
-    color: #fff;
+    color: #a2a0a0;
 }
 
 #sobre-a-loja img {
@@ -64,18 +66,22 @@ nav li a {
     font-size: 19px;
 }
 
-section {
-    padding: 48px 0;
+#sobre-a-loja h2 {
+    max-width: 100%;
 }
 
 section h2 {
     margin-bottom: 7px;
-    max-width: 95%;
+    max-width: 75%;
     margin: auto;
 }
 
-.noticias {
-    max-width: 95%;
+section {
+    padding: 48px 0;
+}
+
+.artigos {
+    max-width: 75%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 24%);
@@ -83,19 +89,19 @@ section h2 {
     row-gap: 5%;
 }
 
-.noticias article {
+.artigos article {
     padding: 5px;
 }
 
-.noticias img {
+.artigos img {
     max-width: 320px;
 }
 
-.noticias p {
+.artigos p {
     margin-bottom: 5px;
 }
 
-.noticias button {
+.artigos button {
     padding: 5px;
     background-color: rgb(106, 205, 205);
     border: none;
@@ -112,5 +118,14 @@ footer li img {
     height: 32px;
 }
 
+@media screen and (max-width: 640px) {
 
+}
 
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
