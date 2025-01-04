@@ -53,4 +53,10 @@ section {
 
 .noticias {
     display: grid;
+    grid-template-columns: repeat(2, 49%);
+    column-gap: 1%;
+}
+
+.noticias img {
+    max-width: 300px;
 }
