@@ -10,6 +10,11 @@
     margin: 0 auto;
 }
 
+.container h2 {
+    border-bottom: 2px solid;
+    margin-bottom: 25px;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;  
@@ -39,22 +44,27 @@ nav li a {
     margin-right: 24px;
 }
 
-#sobre-a-loja h2 {
-    margin-bottom: 5px;
-}
-
 #sobre-a-loja p {
     font-size: 19px;
 }
 
 section {
-    padding: 48px;
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 7px;
+    max-width: 95%;
+    margin: auto;
 }
 
 .noticias {
+    max-width: 95%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 49%);
+    grid-template-columns: repeat(4, 24%);
     column-gap: 1%;
+    row-gap: 5%;
 }
 
 .noticias article {
@@ -62,7 +72,7 @@ section {
 }
 
 .noticias img {
-    max-width: 300px;
+    max-width: 320px;
 }
 
 .noticias p {
