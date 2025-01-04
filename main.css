@@ -16,9 +16,29 @@ header .container {
     align-items: center;  
 }
 
+.container-flex {
+    display: flex;
+}
+
 header {
     background-color: rgb(106, 205, 205);   
     padding-top: 16px;
     color: #fff;
 }
 
+.menu > li {
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sobre-a-loja img {
+    max-width: 500px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px;
+}
