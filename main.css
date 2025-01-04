@@ -70,18 +70,12 @@ nav li a {
     max-width: 100%;
 }
 
-section h2 {
-    margin-bottom: 7px;
-    max-width: 75%;
-    margin: auto;
-}
-
 section {
     padding: 48px 0;
 }
 
 .artigos {
-    max-width: 75%;
+    max-width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 24%);
@@ -119,13 +113,36 @@ footer li img {
 }
 
 @media screen and (max-width: 640px) {
+     .container {
+        max-width: 90%;
+        flex-direction: column;
+    }
+
+    .artigos {
+        display: block;
+    }
+
+    .artigos .produtos {
+        margin-bottom: 32px;
+    }
 
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+        flex-direction: column;
+    }
 
+    .artigos {
+        display: block;
+    }
+
+    .artigos .produtos {
+        margin-bottom: 32px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    
+
 }
