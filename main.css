@@ -136,6 +136,21 @@ footer li img {
         display: none;
     }
 
+    .botao-menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .botao-menu button {
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(47, 156, 156);
+        color: #fff;
+    }
+
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
