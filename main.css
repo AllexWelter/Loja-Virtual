@@ -22,10 +22,6 @@ footer .container {
     align-items: center;  
 }
 
-.header-container {
-    
-}
-
 .container-flex {
     display: flex;
 }
@@ -63,6 +59,7 @@ nav li a {
 
 #sobre-a-loja img {
     max-width: 550px;
+    margin-right: 20px;
 }
 
 #sobre-a-loja p {
@@ -126,6 +123,10 @@ footer li img {
         flex-direction: column;
     }
 
+    form {
+        margin-top: 12px;
+    }
+
     .artigos {
         display: block;
     }
@@ -152,14 +153,24 @@ footer li img {
         border-radius: 4px;
         background-color: rgb(47, 156, 156);
         color: #fff;
+        cursor: pointer;
     }
 
+    .botao-menu :hover {
+        background-color: #a2a0a0;    
+    }
+    
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     .container {
         max-width: 90%;
         flex-direction: column;
+        padding: 8px;
+    }
+
+    form {
+        margin-top: 12px;
     }
 
     .artigos {
@@ -190,13 +201,7 @@ footer li img {
 }
 
 @media screen and (min-width: 1024px) {
-    .container {
-        width: 100%;
-        max-width: 1024px;
-        margin: 0 auto;
-
-    }
-
+   
     .botao-menu {
         display: none;
     }
