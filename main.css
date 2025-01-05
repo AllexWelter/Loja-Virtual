@@ -90,14 +90,14 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(2, 49%);
     column-gap: 2%;
-    row-gap: 5%;
+    row-gap: 3%;
     text-align: center;
 }
 
 .artigos article {
     padding: 5px;
-    box-shadow: 5px 5px 5px 5px  #a2a0a0;
-    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px  #a2a0a0;
+    border-radius: 4px;
 }
 
 .artigos img {
