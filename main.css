@@ -179,6 +179,11 @@ footer li img {
         display: none;
     }
 
+    .menu {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
