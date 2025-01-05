@@ -22,6 +22,10 @@ footer .container {
     align-items: center;  
 }
 
+.header-container {
+    
+}
+
 .container-flex {
     display: flex;
 }
@@ -186,7 +190,13 @@ footer li img {
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .container {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+
+    }
+
     .botao-menu {
         display: none;
     }
