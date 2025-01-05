@@ -190,4 +190,9 @@ footer li img {
     .botao-menu {
         display: none;
     }
+
+    .menu {
+        margin-top: 16px;
+        
+     }
 }
